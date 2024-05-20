@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Model Scout Extension",
+    "description": "Capture and redirect 3D model downloads for Model Scout Application",
+    "version": "1.0",
+    "permissions" : ["downloads"],
+    "background": {
+        "service_worker" : "background.js"
+    },
+    "action": {
+        "default_popup": "hello.html",
+        "default_icon": "hello_extensions.png"
+      }
+  }
